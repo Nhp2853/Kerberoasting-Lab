@@ -1,12 +1,12 @@
 # Kerberoasting-Lab
 “Simulating Kerberoasting in a containerized environment with cloud and GRC security context”
-# 🔥 Kerberoasting Lab (Kuberroasting Style)
+# Kerberoasting Lab (Kuberroasting Style)
 
 This project simulates a Kerberoasting attack in a containerized lab environment using Docker, Kali Linux, and Impacket. It also demonstrates how governance failures in identity management create opportunities for credential-based attacks — even in hybrid or cloud environments.
 
 ---
 
-## 🧪 Lab Setup
+## Lab Setup
 
 - **Attacker**: Kali Linux VM
 - **Target**: Docker container simulating a Kerberos environment
@@ -15,7 +15,7 @@ This project simulates a Kerberoasting attack in a containerized lab environment
 
 ---
 
-## 🚀 Attack Flow (To Be Demonstrated)
+## Attack Flow (To Be Demonstrated)
 
 1. Enumerate SPNs from victim (using Impacket)
 2. Request TGS tickets
@@ -25,7 +25,7 @@ This project simulates a Kerberoasting attack in a containerized lab environment
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 | Folder | Purpose |
 |--------|---------|
@@ -36,7 +36,7 @@ This project simulates a Kerberoasting attack in a containerized lab environment
 
 ---
 
-## 🔐 GRC + Cloud Security Tie-In
+## GRC + Cloud Security Tie-In
 
 This lab highlights the intersection of offensive techniques and GRC breakdowns:
 - Weak credential policies (NIST IA-5, CIS 4.8)
@@ -46,7 +46,7 @@ This lab highlights the intersection of offensive techniques and GRC breakdowns:
 
 ---
 
-### ✅ Status: *In Progress*
+### Status: *In Progress*
 
 - [x] PowerPoint slides created (to be uploaded in `/ppt`)
 - [ ] Lab attack executed and screenshots saved
